@@ -8,7 +8,7 @@ module.exports = function towelSort(arr1) {
     }
 	for (let i = 0; i < arr1.length; i++) {		
 		if (i % 2 !== 0) {				
-            for (l =  arr1[i].length-1; l >=; l--) {
+            for (l =  arr1[i].length-1; l >=0; l--) {
                 newArr.push(arr1[i][l]);    
                   }		
 		}
